@@ -1,10 +1,9 @@
-from telegram import Update, ForceReply, InlineKeyboardMarkup, InlineKeyboardButton, ParseMode
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
+from telegram import Update, ParseMode
+from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
 import logging
 import requests
 import json
 import narrator
-import io
 import os
 
 logger = logging.getLogger(__name__)
